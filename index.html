@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GJ - Learning</title>
+</head>
+<body>
+    <h1>Welcome to GJ</h1>
+    <p>This is a simple HTML file for GJ demonstration purposes.</p>
+
+    <a href="https://www.sap.com" target="_blank">Visit SAP</a>
+    <!--Add two numbers --> 
+    <h2>Add Two Numbers</h2>
+    <label for="num1">First Number:</label>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <label for="num2">Second Number:</label>
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button onclick="addNumbers()">Add</button>
+    <p id="result" style="font-size: large; font-weight: bold;" >
+
+    </p>
+<!--     
+    <script>
+        function addNumbers() {
+            var number1 = parseFloat(document.getElementById('num1').value);
+            var number2 = parseFloat(document.getElementById('num2').value);
+            var sum = number1 + number2;
+            //alert("The sum of " + number1 + " and " +  number2 + " is "+ sum);
+        }
+        var a = "Hi";
+        console.log('my constant',a);
+        a = 10;
+        console.log('new value', a); 
+    </script> -->
+
+    <!-- <script>
+        function addNumbers()
+        {
+        
+            const a = document.getElementById('num1').value;
+            const b = document.getElementById('num2').value;
+            const a2 = new addtwonumbers();
+           const result = a2.addnumber(a,b);
+            console.log("Triggering add method", result)
+            document.getElementById("result").textContent = result;
+        }
+        class addtwonumbers {
+constructor(value) 
+{
+    this.title = value;
+}
+addnumber(a,b)
+{
+return (parseInt(a)+parseInt(b));
+}
+}
+
+const a = document.getElementById('num1').value;
+const b = document.getElementById('num2').value;
+// const a1 = new addtwonumbers(a,b);
+// console.log("Sum of two numbers " + a1.addnumber(a,b));
+console.log("Value of " + a);
+    </script> -->
+
+<script src="./addnumbers_with_class.js"></script>
+</body>
+</html>
