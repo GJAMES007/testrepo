@@ -1,2 +1,2 @@
 # testrepo
-DevOps - GitHub Learning
+DevOps - Git and GitHub Learning
